@@ -38,7 +38,11 @@ namespace ConsoleApplicationLabo2
                 new ProfessionalContact("Takumi", "Fujiwara", true, "001/69.03.855", "fujiwara.takumi@centralconsulting.jp")
             };
 
+            Car c1 = new Car("93-32");
 
+            ContactCar cc1 = new ContactCar(listPro[2], c1);
+
+            cc1.DynamicPrint(cc1.Person);
 
             Console.Read();
 

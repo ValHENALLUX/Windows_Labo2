@@ -54,5 +54,10 @@ namespace ConsoleApplicationLabo2
         {
             Enterprises.Add(enterprise);
         }
+
+        public string Print()
+        {
+            return (Name + " " + Lastname + " est un contact professionnel");
+        }
     }
 }

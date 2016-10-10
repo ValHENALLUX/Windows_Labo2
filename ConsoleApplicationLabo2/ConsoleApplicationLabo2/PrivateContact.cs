@@ -28,5 +28,9 @@ namespace ConsoleApplicationLabo2
             return (base.ToString() + (HasHisBirthday()? " Bon anniversaire !" : "."));
         }
 
+        public string Print()
+        {
+            return (Name + " " + Lastname + " est un contact privé");
+        }
     }
 }
