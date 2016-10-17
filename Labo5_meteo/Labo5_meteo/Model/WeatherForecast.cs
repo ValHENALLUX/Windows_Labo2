@@ -8,12 +8,20 @@ namespace Labo5_meteo.Model
 {
     public class WeatherForecast
     {
-        public DateTime date { get; set; }
+        public DateTime Date { get; set; }
         public double MinTemp { get; set; }
         public double MaxTemp { get; set; }
-        public double WindSpeed { get; set; }
         public string WeatherDescription { get; set; }
-
-
+        public double WindSpeed { get; set; }
+        
+        /*
+        public WeatherForecast(DateTime date, double minTemp, double maxTemp, string weatherDescription, double windSpeed)
+        {
+            Date = date;
+            MinTemp = minTemp;
+            MaxTemp = maxTemp;
+            WeatherDescription = weatherDescription;
+            WindSpeed = windSpeed;
+        }*/
     }
 }
